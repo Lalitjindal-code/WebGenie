@@ -1,0 +1,11 @@
+project_id = "wbnnowxghzcpxpmauzyj"
+
+[auth]
+site_url = "http://localhost:5173"
+enabled = true
+
+[functions.genie-chat]
+verify_jwt = false
+
+[functions.generate-code]
+verify_jwt = false
