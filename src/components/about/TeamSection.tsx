@@ -23,9 +23,9 @@ const fetchTeam = async (): Promise<TeamMember[]> => {
 
 const defaultTeam: TeamMember[] = [
   { id: "lalit", name: "Lalit Jindal", role: "Product Architect" },
-  { id: "pratiksha", name: "Pratiksha Ahire", role: "Frontend Developer" },
+  { id: "pratiksha", name: "Pratiksha Ahire", role: "UI/UX Designer" },
   { id: "arin", name: "Arin Yadav", role: "Backend Developer" },
-  { id: "vaibhav", name: "Vaibhav Gurjar", role: "UI/UX Designer" },
+  { id: "vaibhav", name: "Vaibhav Gurjar", role: "Frontend Developer" },
 ];
 
 const TeamSection = () => {
